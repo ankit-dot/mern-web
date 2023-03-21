@@ -1,0 +1,49 @@
+.imgContainer{
+    width:100vw;
+    height: calc(100vh - 55px);
+    background-image:url("https://thumbs.dreamstime.com/b/food-waste-compost-food-waste-environmental-control-food-waste-compost-food-waste-environmental-control-sorting-food-136360585.jpg");
+    background-blend-mode: darken !important;
+    object-fit: cover;
+    overflow-y:hidden;
+    
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.homeContainer{
+    width:100vw;
+}
+
+
+.buttons{
+    display: flex;
+    
+}
+.buttons a{
+    text-decoration: none;
+}
+.button{
+    padding:10px 20px;
+    border:1px solid white;
+    margin-top:20px;
+    border-radius:5px;
+    margin-left: 10px;
+    
+    color:white;
+}
+.button a{
+    color:white !important;
+}
+.button:hover{
+    background:lightblue !important;
+    cursor:pointer;
+
+}
+.button a:hover{
+    color:black !important;
+}
+

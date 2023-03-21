@@ -1,0 +1,23 @@
+.MainNav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.right{
+    display:flex;
+    margin-right:10px;
+
+    
+}
+.MainNav a{
+    text-decoration: none;
+    font-size:large;
+    margin-left: 20px;
+}
+.right li{
+    margin-right:10px;
+    font-size:large;
+    list-style: none;
+
+}

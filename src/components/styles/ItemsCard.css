@@ -1,0 +1,27 @@
+.cardContainer{
+    width:22%;
+    display:flex;
+    padding:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px 40px;
+
+    
+    
+}
+.cardTitle{
+    font-size: 18px;
+    color:#d1411e;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.price{
+    font-size: 18px;
+    color:#666;
+    font-weight: bold;
+}
+.cardDesc{
+    text-align: center;
+}
